@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with Sterling Visualizer Starter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with: 
+[Create React App](https://github.com/facebook/create-react-app).
+[Bootstrap Classes ](https://getbootstrap.com/docs/5.3/utilities/flex/).
+[React Bootstrap](https://react-bootstrap.netlify.app/docs/components/accordion).
+[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/tutorials/loading-models).
+[Valtio Store](https://github.com/pmndrs/valtio).
+
 
 ## Available Scripts
 
@@ -68,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
