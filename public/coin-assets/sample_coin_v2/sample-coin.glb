@@ -1,0 +1,16 @@
+import React, { useRef } from 'react'
+import { useGLTF } from '@react-three/drei'
+
+export function Model(props) {
+  const { nodes, materials } = useGLTF('/samplecoin-transformed.glb')
+  return (
+    <group {...props} dispose={null}>
+      <mesh geometry={nodes.Object_4.geometry} material={materials.Gold} position={[0.041, -0.002, -0.021]} rotation={[Math.PI / 2, 0, -0.479]} />
+      <mesh geometry={nodes.Object_11.geometry} material={materials.Back_Enamel} position={[0.041, -0.002, -0.021]} rotation={[Math.PI / 2, 0, -0.479]} scale={[1, 2.417, 1]} />
+      <mesh geometry={nodes.Object_13.geometry} material={materials.Front_Enamel} position={[0.041, -0.002, -0.021]} rotation={[Math.PI / 2, 0, -0.479]} scale={[1, 2.417, 1]} />
+      <mesh geometry={nodes.Object_15.geometry} material={materials.Gold_Sandblasted} position={[0.041, -0.002, -0.021]} rotation={[Math.PI / 2, 0, -0.479]} scale={[1, 2.417, 1]} />
+    </group>
+  )
+}
+
+useGLTF.preload('/samplecoin-transformed.glb')
