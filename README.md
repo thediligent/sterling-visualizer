@@ -7,6 +7,7 @@ This project was bootstrapped with:
 [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction).
 [Valtio Store](https://github.com/pmndrs/valtio).
 
+![Screencast of Dev](public/assets/coin-visualizer-react.gif)
 
 ## Available Scripts
 
